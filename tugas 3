@@ -1,0 +1,6 @@
+x <- c(3, 4, 7, 10, 12, 15)
+data_genap <- x[x %% 2 == 0]
+genap <- data_genap
+ print(data_genap); print("adalah data genap")
+
+print(paste("maka jumlah semua data genap yaitu:", sum(data_genap)))
