@@ -1,0 +1,11 @@
+data_vektor <- function(vektor) {
+  while (length(vektor) < 10) {
+   nilai_baru <- mean(vektor)
+    vektor <- c(vektor, nilai_baru)
+  }
+  return(vektor)
+}
+
+x <- c(3, 4, 5, 6)
+final_vector <- data_vektor(x)
+print(final_vector)
